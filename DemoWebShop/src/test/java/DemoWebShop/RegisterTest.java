@@ -8,7 +8,7 @@ import base.BaseTest;
 import pompages.RegisterPage;
 
 public class RegisterTest extends BaseTest {
-	@Test
+	@Test(priority = 1)
 	public void register() {
 		RegisterPage register = new RegisterPage(driver);
 		register.getRegisterLink().click();
