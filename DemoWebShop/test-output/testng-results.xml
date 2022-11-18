@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Clicking on Login Link]]>
@@ -11,13 +11,52 @@
       <![CDATA[Enter Password]]>
     </line>
     <line>
+      <![CDATA[Clicking on Register Link]]>
+    </line>
+    <line>
       <![CDATA[Checking RememberMe_CheckBox()]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Link]]>
+    </line>
+    <line>
+      <![CDATA[Enter Email]]>
+    </line>
+    <line>
+      <![CDATA[Checking Female Radio button]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[Enter First Name]]>
+    </line>
+    <line>
+      <![CDATA[Checking RememberMe_CheckBox()]]>
+    </line>
+    <line>
+      <![CDATA[Enter Last Name]]>
     </line>
     <line>
       <![CDATA[Clicking on Login button]]>
     </line>
     <line>
+      <![CDATA[Enter Email]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login button]]>
+    </line>
+    <line>
+      <![CDATA[Enter ConfirmPassword]]>
+    </line>
+    <line>
       <![CDATA[Clicking on DigitalDownloads Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Register Button]]>
     </line>
     <line>
       <![CDATA[Clicking on A to Z Option]]>
@@ -128,16 +167,54 @@
       <![CDATA[HomePage is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-11-18T13:05:40 IST" name="Suite" finished-at="2022-11-18T13:06:07 IST" duration-ms="26864">
+  <suite started-at="2022-11-18T17:27:05 IST" name="Suite" finished-at="2022-11-18T17:27:51 IST" duration-ms="46040">
     <groups>
     </groups>
-    <test started-at="2022-11-18T13:05:40 IST" name="Test" finished-at="2022-11-18T13:06:07 IST" duration-ms="26864">
-      <class name="DemoWebShop.DigitalDownLoadsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:05:40 IST" name="setup" finished-at="2022-11-18T13:05:49 IST" duration-ms="8978" status="PASS">
+    <test started-at="2022-11-18T17:27:05 IST" name="Test" finished-at="2022-11-18T17:27:51 IST" duration-ms="46040">
+      <class name="DemoWebShop.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DemoWebShop.RegisterTest@59402b8f]" started-at="2022-11-18T17:27:05 IST" name="setup" finished-at="2022-11-18T17:27:27 IST" duration-ms="21741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:05:49 IST" name="login" finished-at="2022-11-18T13:05:51 IST" duration-ms="2168" status="PASS">
+        <test-method signature="register()[pri:1, instance:DemoWebShop.RegisterTest@59402b8f]" started-at="2022-11-18T17:27:27 IST" name="register" finished-at="2022-11-18T17:27:32 IST" duration-ms="5176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Register Link]]>
+            </line>
+            <line>
+              <![CDATA[Checking Female Radio button]]>
+            </line>
+            <line>
+              <![CDATA[Enter First Name]]>
+            </line>
+            <line>
+              <![CDATA[Enter Last Name]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[Enter ConfirmPassword]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Register Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.RegisterTest@59402b8f]" started-at="2022-11-18T17:27:32 IST" name="tearDown" finished-at="2022-11-18T17:27:33 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DemoWebShop.RegisterTest -->
+      <class name="DemoWebShop.DigitalDownLoadsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:05 IST" name="setup" finished-at="2022-11-18T17:27:27 IST" duration-ms="22094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:27 IST" name="login" finished-at="2022-11-18T17:27:30 IST" duration-ms="3018" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on Login Link]]>
@@ -156,7 +233,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="navigateToThirdAlbumPage()[pri:1, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:05:51 IST" name="navigateToThirdAlbumPage" finished-at="2022-11-18T13:05:57 IST" duration-ms="5396" status="PASS">
+        <test-method signature="navigateToThirdAlbumPage()[pri:1, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:30 IST" name="navigateToThirdAlbumPage" finished-at="2022-11-18T17:27:38 IST" duration-ms="8010" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on DigitalDownloads Button]]>
@@ -175,14 +252,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- navigateToThirdAlbumPage -->
-        <test-method signature="navigateToShoppingCartPage()[pri:2, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:05:57 IST" name="navigateToShoppingCartPage" finished-at="2022-11-18T13:05:58 IST" duration-ms="881" status="PASS">
+        <test-method signature="navigateToShoppingCartPage()[pri:2, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:38 IST" name="navigateToShoppingCartPage" finished-at="2022-11-18T17:27:39 IST" duration-ms="666" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on Add to Cart Button]]>
             </line>
           </reporter-output>
         </test-method> <!-- navigateToShoppingCartPage -->
-        <test-method signature="navigateToCheckoutPage()[pri:3, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:05:58 IST" name="navigateToCheckoutPage" finished-at="2022-11-18T13:06:00 IST" duration-ms="2406" status="PASS">
+        <test-method signature="navigateToCheckoutPage()[pri:3, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:39 IST" name="navigateToCheckoutPage" finished-at="2022-11-18T17:27:41 IST" duration-ms="2457" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on ShoppingCart Link]]>
@@ -198,7 +275,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- navigateToCheckoutPage -->
-        <test-method signature="navigateToThankYouPage()[pri:4, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:06:00 IST" name="navigateToThankYouPage" finished-at="2022-11-18T13:06:02 IST" duration-ms="2290" status="PASS">
+        <test-method signature="navigateToThankYouPage()[pri:4, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:41 IST" name="navigateToThankYouPage" finished-at="2022-11-18T17:27:44 IST" duration-ms="2782" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Displaying Check Out page]]>
@@ -241,7 +318,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- navigateToThankYouPage -->
-        <test-method signature="navtigateToPaymentInformation()[pri:5, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:06:02 IST" name="navtigateToPaymentInformation" finished-at="2022-11-18T13:06:03 IST" duration-ms="907" status="PASS">
+        <test-method signature="navtigateToPaymentInformation()[pri:5, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:44 IST" name="navtigateToPaymentInformation" finished-at="2022-11-18T17:27:45 IST" duration-ms="1150" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PaymentMethod Field is Displayed]]>
@@ -254,7 +331,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- navtigateToPaymentInformation -->
-        <test-method signature="navtigateToConfirmOrder()[pri:6, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:06:03 IST" name="navtigateToConfirmOrder" finished-at="2022-11-18T13:06:04 IST" duration-ms="285" status="PASS">
+        <test-method signature="navtigateToConfirmOrder()[pri:6, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:45 IST" name="navtigateToConfirmOrder" finished-at="2022-11-18T17:27:46 IST" duration-ms="718" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Payment Information Field is Displayed]]>
@@ -264,7 +341,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- navtigateToConfirmOrder -->
-        <test-method signature="navtigateToThankYouPage()[pri:7, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:06:04 IST" name="navtigateToThankYouPage" finished-at="2022-11-18T13:06:04 IST" duration-ms="612" status="PASS">
+        <test-method signature="navtigateToThankYouPage()[pri:7, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:46 IST" name="navtigateToThankYouPage" finished-at="2022-11-18T17:27:47 IST" duration-ms="423" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Confirm Order Field is Displayed]]>
@@ -280,7 +357,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- navtigateToThankYouPage -->
-        <test-method signature="navtigateToHomePage()[pri:8, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:06:04 IST" name="navtigateToHomePage" finished-at="2022-11-18T13:06:07 IST" duration-ms="2367" status="PASS">
+        <test-method signature="navtigateToHomePage()[pri:8, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:47 IST" name="navtigateToHomePage" finished-at="2022-11-18T17:27:49 IST" duration-ms="2971" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ThankYou Page is Displayed]]>
@@ -299,11 +376,40 @@
             </line>
           </reporter-output>
         </test-method> <!-- navtigateToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.DigitalDownLoadsTest@49ec71f8]" started-at="2022-11-18T13:06:07 IST" name="tearDown" finished-at="2022-11-18T13:06:07 IST" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.DigitalDownLoadsTest@451001e5]" started-at="2022-11-18T17:27:49 IST" name="tearDown" finished-at="2022-11-18T17:27:51 IST" duration-ms="1432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- DemoWebShop.DigitalDownLoadsTest -->
+      <class name="DemoWebShop.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DemoWebShop.LoginTest@7188af83]" started-at="2022-11-18T17:27:05 IST" name="setup" finished-at="2022-11-18T17:27:26 IST" duration-ms="20720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:DemoWebShop.LoginTest@7188af83]" started-at="2022-11-18T17:27:26 IST" name="login" finished-at="2022-11-18T17:27:29 IST" duration-ms="3524" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login Link]]>
+            </line>
+            <line>
+              <![CDATA[Enter Email]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[Checking RememberMe_CheckBox()]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.LoginTest@7188af83]" started-at="2022-11-18T17:27:30 IST" name="tearDown" finished-at="2022-11-18T17:27:31 IST" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DemoWebShop.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
